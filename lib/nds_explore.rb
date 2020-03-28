@@ -13,7 +13,7 @@ end
 
 
 def print_first_directors_movie_titles	
- movies=[{:name =>"Jaws", :movie =>"Close Encounters of the Third Kind"},
- {:name => "E.T", :movie => "Raiders of the Lost Ark"},
- {:name => "Schindler", :movie => " the Extra-terrestrial list "}]
+ movies = directors_database
+  movie = movies[0][:movies].each{|i|
+    puts i[:title]
 end	
