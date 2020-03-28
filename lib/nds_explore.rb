@@ -14,7 +14,7 @@ end
 
 
 def print_first_directors_movie_titles	
- movies = directors_database
+  movies = directors_database
   movie = movies[0][:movies].each{|i|
     puts i[:title]
   }
