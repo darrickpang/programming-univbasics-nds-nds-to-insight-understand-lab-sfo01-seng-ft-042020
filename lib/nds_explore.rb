@@ -12,9 +12,10 @@ end
 
 def print_first_directors_movie_titles	
   movies = directors_database
-  movie = movies[0][:movies].each{|i|
-    while i < movies.count do
-    puts movies[i][:title]
-    i += 1
+  movie = movies[0][:movies]
+  x=0
+    while x < movie.count do
+    puts movie[x][:title]
+    x += 1
   end
 end	
